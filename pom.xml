@@ -19,7 +19,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jolbox</groupId>
     <artifactId>bonecp-parent</artifactId>
-    <version>0.7.2-SNAPSHOT</version>
+    <version>0.7.2-20140421</version>
     <packaging>pom</packaging>
     <name>BoneCP</name>
     <description>The fast Java JDBC Database Connection pool</description>
@@ -61,7 +61,7 @@
         <repository>
             <id>sonatype-nexus-staging</id>
             <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <url>https://apps.its.uiowa.edu/nexus/content/repositories/thirdparty/</url>
         </repository>
     </distributionManagement>
 
@@ -109,13 +109,13 @@
             <dependency>
                 <groupId>com.jolbox</groupId>
                 <artifactId>bonecp-test-commons</artifactId>
-                <version>0.7.2-SNAPSHOT</version>
+                <version>0.7.2-20140421</version>
             </dependency>
 
   			<dependency>
                 <groupId>com.jolbox</groupId>
                 <artifactId>bonecp</artifactId>
-                <version>0.7.2-SNAPSHOT</version>
+                <version>0.7.2-20140421</version>
             </dependency>
             
             <dependency>
